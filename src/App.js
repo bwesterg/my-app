@@ -13,7 +13,7 @@ function App() {
         <Navbar />
         <Link>
           <Routes>
-            <Route path='/' exact component={Home} /> 
+            <Route path='/' exact element={<Home/>} /> 
           </Routes>
         </Link>
       </Router>
