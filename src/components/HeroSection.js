@@ -27,7 +27,7 @@ function HeroSection() {
                 </Button>
             </div> 
         </div>
-    )
+    );
 }
 
 export default HeroSection;
