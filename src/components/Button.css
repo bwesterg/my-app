@@ -34,8 +34,10 @@
     font-size: 20px;
 }
 
-.btn--medium:hover, .btn-large:hover {
-    background: #fff;
-    color: #242424;
-    transition: all 0.3s ease-out;
+.navbar-container .btn--medium:hover {
+    transform: scale(1.1);
+    transition: all 0.1s ease-out;
+    color: #fff;
+    background-color: #242222;
+    border: 1px solid #fff;
 }
