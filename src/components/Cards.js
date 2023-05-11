@@ -10,35 +10,35 @@ function Cards() {
         <div className="cards__wrapper">
             <ul className="cards__items">
                 <CardItem 
-                    src="images/img-9.jpg"
-                    text="Explore the waterfall"
-                    label='Adventure'
+                    src="images/pordoi.jpeg"
+                    text="Historic Sass Pordoi"
+                    label='History'
                     path='/services'
                 />
                 <CardItem 
-                    src="images/img-2.jpg"
-                    text="Island travel and private cruise"
-                    label='Luxury'
+                    src="images/furka.jpeg"
+                    text="Climbing Paradise Furkapass"
+                    label='Expert'
                     path='/services'
                 />
             </ul>
             <ul className="cards__items">
                 <CardItem 
-                    src="images/img-3.jpg"
-                    text="Sharkbait"
-                    label='Adventure'
+                    src="images/Grimselsee.jpeg"
+                    text="Grimselsee Side Road"
+                    label='Intimidating'
                     path='/services'
                 />
                 <CardItem 
-                    src="images/img-4.jpg"
-                    text="Island Rugby"
-                    label='Sports'
+                    src="images/Colfosco.jpeg"
+                    text="Beautiful Dolomites"
+                    label='Intermediate'
                     path='/services'
                 />
                 <CardItem 
-                    src="images/img-5.jpg"
-                    text="Restaurant Tour"
-                    label='Culinary'
+                    src="images/Stelvio.jpeg"
+                    text="Chasing the Giro d'Italia"
+                    label='Expert'
                     path='/services'
                 />
             </ul>

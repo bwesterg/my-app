@@ -10,7 +10,6 @@ function Footer() {
             <p className="footer-subscription-heading">
                 Join the Adventure newsletter to receive our best vacation deals
             </p>
-            <p className="footer-subscription-text">You can unsubscribe</p>
             <div className="input-areas">
                 <form>
                     <input 
@@ -23,6 +22,7 @@ function Footer() {
                         buttonStyle='btn--outline'
                     >Subscribe</Button>
                 </form>
+            <p className="footer-subscription-text">Unsubscribe at any time</p>
             </div>
         </section>
         <div className="footer-links">

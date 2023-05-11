@@ -7,19 +7,20 @@ import './HeroSection.css';
 function HeroSection() {
     return (
         <div className="hero-container">
-            <video src="/videos/video-2.mp4" autoPlay loop muted />
-            <h1>ADVENTURE AWAITS</h1>
+            <video src='/videos/tre_cime_vid.mov' id='vid1' autoPlay muted loop />
+           
+            <h1>CYCLING ADVENTURE AWAITS</h1>
             <p>What are you waiting for?</p>
             <div className="hero-btns ">
                 <Button 
-                    className="btns" 
+                    className="btns started" 
                     buttonStyle='btn--outline'
                     buttonSize='btn--large'
                 >
                 GET STARTED
                 </Button>
                 <Button 
-                    className="btns" 
+                    className="btns trailer" 
                     buttonStyle='btn--primary'
                     buttonSize='btn--large'
                 >
@@ -28,6 +29,7 @@ function HeroSection() {
             </div> 
         </div>
     );
-}
+};
+
 
 export default HeroSection;
